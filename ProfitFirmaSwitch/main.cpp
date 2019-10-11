@@ -11,7 +11,7 @@ int main()
    switch (trimestru)
 
      {
-        case 1 : cout << "Profitul firmul in trimestru I este " << profitTrimestru1 << " si bilantul anului anterior este " << bilant; break;
+        case 1 : cout << "Profitul firmei in trimestru I este " << profitTrimestru1 << " si bilantul anului anterior este " << bilant; break;
         case 2 : cout << "Profitul firmei este " << profitTrimestru2 << endl; break;
         case 3 : cout << "Profitul firmei este " << profitTrimestru3 << endl; break;
         case 4 : cout << "Profitul firmei este " << profitTrimestru4 << endl; break;

@@ -19,7 +19,7 @@ int main()
         if ( trimestru == 4)
         cout << "Profitul firmei este " << profitTrimestru4 << endl;
         else if (trimestru == 1)
-            cout << "Profitul firmul in trimestru I este " << profitTrimestru1 << " si bilantrul anului anterior este " << bilant;
+            cout << "Profitul firmei in trimestru I este " << profitTrimestru1 << " si bilantul anului anterior este " << bilant;
      }
     return 0;
 }
