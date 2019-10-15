@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    unsigned int nr,i=0;
+    int nr,i=0;
     cout << "Scrieti un numar intreg" << endl;
     cin >> nr;
 
-    while(nr != 0)
+    while(nr)
     {
         nr = nr/ 10;
         i++;
