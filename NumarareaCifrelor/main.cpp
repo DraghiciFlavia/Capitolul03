@@ -8,11 +8,12 @@ int main()
     cout << "Scrieti un numar intreg" << endl;
     cin >> nr;
 
-    while(nr)
+    do
     {
         nr = nr/ 10;
-        i++;
-    }
-    cout << "Numarul introdus de la tastatura are " << i << " cifre";
+        ++i;
+    }while(nr);
+   cout << "Numarul introdus de la tastatura are " << i << " cifre";
+
     return 0;
 }
